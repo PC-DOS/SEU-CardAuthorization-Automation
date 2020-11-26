@@ -1,0 +1,16 @@
+C:\Users\PC-DOS\AppData\Local\Temporary Projects\SEU-CardAuthorization-Automation\bin\Debug\SEU-CardAuthorization-Automation.exe.config
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\bin\Debug\SEU-CardAuthorization-Automation.exe.config
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\bin\Debug\SEU-CardAuthorization-Automation.exe
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\bin\Debug\SEU-CardAuthorization-Automation.pdb
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\bin\Debug\SEU-CardAuthorization-Automation.xml
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\MainWindow.baml
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\MainWindow.g.vb
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\Application.g.vb
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\SEU-CardAuthorization-Automation_MarkupCompile.cache
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\SEU-CardAuthorization-Automation.g.resources
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\SEU_CardAuthorization_Automation.Resources.resources
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\SEU-CardAuthorization-Automation.vbproj.GenerateResource.Cache
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\SEU-CardAuthorization-Automation.exe
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\SEU-CardAuthorization-Automation.xml
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\SEU-CardAuthorization-Automation.pdb
+D:\SEU-CardAuthorization-Automation\SEU-CardAuthorization-Automation\obj\Debug\SEU-CardAuthorization-Automation.vbproj.ResolveComReference.cache

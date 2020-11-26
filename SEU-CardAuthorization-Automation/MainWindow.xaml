@@ -1,0 +1,44 @@
+﻿<Window x:Class="MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    Title="SEU Card Authorization Automation" MinHeight="350" MinWidth="525" Icon="Assets/SEU.ico">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Grid.Row="0" Orientation="Vertical" Margin="10,10,10,0">
+            <TextBlock Text="开始前，请先确保您已经完成了本日的健康申报，且浏览器页面已经登录并导航到了东南大学本科生出校登记审批页面。" />
+            <Grid Margin="0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="辅导员姓名: "/>
+                <TextBox x:Name="txtTeacherName" Grid.Column="1" Margin="5,0,0,0" Text="辅导员"/>
+                <TextBlock Grid.Column="2" Text="辅导员电话号码: " Margin="10,0,0,0"/>
+                <TextBox x:Name="txtTeacherPhoneNumber" Grid.Column="3" Margin="5,0,0,0" Text="13800000000"/>
+            </Grid>
+            <StackPanel Orientation="Vertical" Margin="0,0,0,10">
+                <TextBlock Text="请假事由: " Margin="0"/>
+                <TextBox x:Name="txtReason" AcceptsReturn="True" TextWrapping="Wrap" Height="50" VerticalScrollBarVisibility="Visible" Text="聆听人文讲座，和朋友叙叙旧。"/>
+            </StackPanel>
+            <Grid Margin="0,0,0,10">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Grid.Column="0" Text="开始日期: " VerticalAlignment="Center"/>
+                <DatePicker Grid.Column="1" x:Name="dtpStartDate" Margin="5,0,0,0"/>
+                <TextBlock Grid.Column="2" Text="结束日期: " VerticalAlignment="Center" Margin="10,0,0,0"/>
+                <DatePicker Grid.Column="3" x:Name="dtpEndDate" Margin="5,0,0,0"/>
+            </Grid>
+            <Button x:Name="btnStart" Content="开始处理(_S)" Width="100" HorizontalAlignment="Left"/>
+        </StackPanel>
+        <WebBrowser x:Name="wbbEhallContainer" Grid.Row="1" Margin="10"/>
+    </Grid>
+</Window>
